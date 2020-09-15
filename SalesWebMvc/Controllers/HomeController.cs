@@ -17,14 +17,15 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Salles Web MVA App from C#";
+            ViewData["e-mail"] = "emerson@delatorre.dev";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "(22) 99999-9999.";
 
             return View();
         }
